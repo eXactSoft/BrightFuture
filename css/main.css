@@ -1,0 +1,336 @@
+/* Start Global Rules*/
+ul, ol{
+	list-style: none
+}
+
+*{
+	box-sizing:border-box
+}
+
+img{
+	max-width:100% !important;
+}
+
+a{
+	text-decoration:none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+b,strong{
+	font-weight:bold;
+}
+
+em{
+	font-style:italic;
+}
+
+body {
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+}
+/* End Global Rules*/
+
+
+/* body background */
+body{
+	background-color:#f0f0f0 /*#f7f7f7*/
+}
+
+/* Start Header Section */
+.header{
+	background-color:#fff;
+	color: black;
+	/* As header has height the floating problems 
+		from its child are solved*/
+	height:73px;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.header .header-logo{
+	width:30%;
+	float:left;
+	margin:auto 1%;
+}
+
+.header .header-logo .header-img{
+	min-width:277px;
+	padding: 15px 0 0 0;
+	margin:auto;
+}
+
+.header .header-links{ 
+	float:left;
+	width:66%;
+	text-align:right;
+	margin:auto 1%;
+}
+
+.header .header-links li{ 
+	display:inline-block;
+	padding: 21px 40px 16px 14px;
+}
+
+.header .header-links li a{ 
+	color: #2e2e2e;
+	font-family: 'Raleway',Arial !important;
+	font-size: 14px;
+	line-height: 30px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	
+}
+
+.header .header-links li a:hover{ /*.header .header-links li:hover*/
+	color: #cb5070;
+}
+/* End Header Section */
+
+
+/* Start Home News*/
+.home-news{
+	width:100%;
+	margin:20px auto 0px;
+	background-color:#f7f7f7;
+	text-align:center;
+}
+/* Start News Holder*/
+.home-news .news-holder {
+	width:67.5%;
+	float:left;
+	margin:0 1%;
+}
+/* Start News Box*/
+.home-news .news-holder .news-box{
+	text-align: center;
+	margin:0 0 40px auto;
+	padding:45px 30px 50px;
+	background-color:#fff;
+	color:#666;
+	border:1px solid #ddd;
+	max-width:852px;
+}
+
+.home-news .news-holder .news-box .news-info{
+	font-family: 'Raleway',Arial !important;
+	font-size: 12px;
+	line-height: 28px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.home-news .news-holder .news-box .link{
+	color:#666;
+}
+
+.home-news .news-holder .news-box .link:hover{
+	color:#ef7c28;
+}
+
+.home-news .news-holder .news-box .news-info .label{
+	text-transform:uppercase;
+	display:inline-block;
+	background-color:#fff;
+}
+
+.home-news .news-holder .news-box .news-info .label a{
+	padding:4px 10px;
+	margin-right:9px;	
+	color:#fff;
+	background-color:#1a1a1a;
+}
+
+.home-news .news-holder .news-box .news-title{
+	font-family: 'Raleway',Arial !important;
+	font-size: 32px;
+	line-height: 52px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-transform:capitalize;
+	color:#2e2e2e;
+	padding:20px
+}
+
+.home-news .news-holder .news-box .news-img{
+	margin:20px 0
+}
+
+.home-news .news-holder .news-box .news-text{
+	font-family: 'Poppins',Arial !important;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+	text-align:left;
+	color:#666;
+	margin-bottom:20px
+}
+
+.home-news .news-holder .news-box .news-button{
+	display:inline-block;
+	padding:10px 20px;
+	color:#fff;
+	background-color:#1a1a1a;	
+	text-decoration:none;
+	font-weight:bold;
+	border:2px solid #1a1a1a
+}
+
+.home-news .news-holder .news-box .news-button:hover{
+	color:#1a1a1a;
+	background-color:#fff
+}
+/* End News Box*/
+/* End News Holder*/
+
+/* Start Sidebar*/
+.home-news .sidebar {
+	width:28.5%;
+	float:left;
+	margin:0 1%;
+}
+
+/* Start widget*/
+.home-news .sidebar .widget{
+	text-align:center;
+	font-size: 16px;
+  line-height: 24px;	
+	font-family: 'Poppins',Arial !important;
+	margin:0 auto 47px 0;
+	padding:41px 20px 49px;
+	background-color:#fff;
+	color:#666;
+	border:1px solid #ddd;
+	max-width:340px;
+}
+
+.home-news .sidebar .widget .widget-title{
+	font-family: 'Raleway',Arial !important;
+	font-size: 22px;
+	line-height: 30px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1.75px;
+	color: #2e2e2e;
+}
+
+.home-news .sidebar .widget .widget-img{
+	margin:20px 0;
+}
+
+.home-news .sidebar .widget .widget-text{
+	margin-bottom:20px;
+	text-align:left;
+	font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.home-news .sidebar .widget .subscribe .subscribe-email,
+.home-news .sidebar .widget .subscribe .subscribe-button
+{
+	display:block;
+	width:100%;
+	background-color:#fff;
+}
+
+.home-news .sidebar .widget .subscribe .subscribe-email{
+	color:#808080;
+	background-color:#ededed;
+	border-style:none;
+	outline:none;
+	padding:12px 10px 10px 23px;
+	margin-bottom:20px;
+}
+
+.home-news .sidebar .widget-search{
+	text-align:left;
+	font-size: 16px;
+  line-height: 28px;	
+	font-family: 'Poppins',Arial !important;
+	margin:0 auto 47px 0;
+	padding:0;
+	background-color:#fff;
+	color:#666;
+	border:1px solid #ddd;
+	max-width:340px;
+}
+
+.home-news .sidebar .widget-search .search{
+	height:50px;
+	width:100%;
+	
+}
+
+.home-news .sidebar .widget-search .search .search-text{
+	float:left;
+	width:70%;
+	height:100%;
+	padding: 12px 10px 10px 23px;
+}
+
+.home-news .sidebar .widget-search .search .search-button{
+	float:left;
+	width:30%;
+	height:100%;
+}
+
+.home-news .sidebar .widget .subscribe .subscribe-button,
+.home-news .sidebar .widget-search .search .search-button
+{
+	text-align:left;
+	padding:10px;	
+	color:#fff;
+	background-color:#1a1a1a;	
+	text-decoration:none;
+	font-weight:bold;
+	border:2px solid #1a1a1a;
+	cursor:pointer;
+}
+
+.home-news .sidebar .widget .subscribe .subscribe-button:hover,
+.home-news .sidebar .widget-search .search .search-button:hover
+{
+	color:#1a1a1a;
+	background-color:#fff;
+}
+
+/* End widget*/
+/* End Sidebar*/
+/* End Home News*/
+
+/* Start Footer Section*/
+.footer{
+	background-color: #2e2e2e;
+	color:#fff;
+	height:40px;
+	font-size:18px;
+	text-align: center;
+	padding:10px;
+}
+/* End Footer Section*/
+
+/* Start My Framework */
+.clearfix{ /* To fix the problems of the float property */
+	clear:both
+}
+
+/* Pseudo element */
+.title-with-lowerborder:after{
+	content: '';
+	height: 3px;
+	width: 40px;
+	background: #1a1a1a;
+	display:block;
+	margin:10px auto;
+}
+/* End My Framework */
